@@ -1,6 +1,6 @@
 {
   "name": "@vibe-coding/vibe-cli",
-  "version": "1.0.0",
+  "version": "0.1.0-beta",
   "description": "CLI tool to help with file organization through interactive prompts",
   "type": "module",
   "main": "index.js",
@@ -20,8 +20,12 @@
     "utility",
     "vibe-coding"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "Juwoong Bae",
+    "email": "to@juwoong.me",
+    "url": "https://juwoong.me"
+  },
+  "license": "MIT",
   "dependencies": {
     "chalk": "^5.4.1",
     "commander": "^13.1.0",
