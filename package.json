@@ -1,0 +1,46 @@
+{
+  "name": "@vibe-coding/vibe-cli",
+  "version": "1.0.0",
+  "description": "CLI tool to help with file organization through interactive prompts",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "vibe": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/index.js",
+    "prepublishOnly": "chmod +x ./bin/index.js"
+  },
+  "keywords": [
+    "cli",
+    "file-organization",
+    "template",
+    "interactive",
+    "utility",
+    "vibe-coding"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "fs-extra": "^11.3.0",
+    "inquirer": "^12.5.0",
+    "ora": "^8.2.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=14.16.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juwoong/vibe.git"
+  },
+  "bugs": {
+    "url": "https://github.com/juwoong/vibe/issues"
+  },
+  "homepage": "https://github.com/juwoong/vibe#readme"
+}
