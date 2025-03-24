@@ -1,0 +1,20 @@
+# 개발 파일
+node_modules/
+.vscode/
+.idea/
+.git/
+.gitignore
+
+# 테스트 파일
+__tests__/
+test/
+tests/
+*.test.js
+*.spec.js
+
+# 기타 파일
+.DS_Store
+*.log
+*.log.*
+.env*
+.npmrc 
