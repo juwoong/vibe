@@ -119,7 +119,7 @@ ${results}
         overwrite: false,
         errorOnExist: false,
       });
-      spinner.text = "Default template files have been copied.";
+      spinner.succeed("Default template files have been copied.");
     } catch (error) {
       spinner.fail("Error occurred while copying template files.");
       throw error;
